@@ -2,18 +2,35 @@
 
 ## Installation
 
-You can clone the repository wherever you want. (I keep it in `~/GitHub/dotfiles`.) A script will then set up symbolic links from the home directory to the local repository.
+Clone this to a local repository. I use `~/GitHub/dotfiles`. 
 
 ```bash
 git clone https://github.com/jamesamiller/dotfiles.git
 ```
 
-To set up the symbolic links, `cd` into your local `dotfiles` repository and then
+The script `symlinks.sh` will then set up symbolic links from the home directory to the local repository. `cd` into your local `dotfiles` repository and then
 
 ```bash
 chmod u+x symlinks.sh
 ./symlinks.sh
 ```
+
+## Unused Files
+
+The files or directories in this repo I currently use are
+
+```bash
+.aliases
+.bash_profile
+.bash_prompt
+.bashrc
+.exports
+.functions
+bin
+symlinks.sh
+```
+
+I may use the others in the future, but currently they are along for the ride and will be kept current with Mathias Bynens' upstream repository.
 
 ## Add custom commands without creating a new fork
 
@@ -32,6 +49,6 @@ GIT_COMMITTER_EMAIL="$GIT_AUTHOR_EMAIL"
 git config --global user.email "$GIT_AUTHOR_EMAIL"
 ```
 
-You could also use `~/.extra` to override settings, functions and aliases from my dotfiles repository. It’s probably better to this repository instead, though.
+You could also use `~/.extra` to override settings, functions and aliases from my dotfiles repository. It’s probably better to fork this repository instead, though.
 
 
