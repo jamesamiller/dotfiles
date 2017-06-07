@@ -12,7 +12,5 @@ ln -s ~/GitHub/dotfiles/.vim ~/.vim
 ln -s ~/GitHub/dotfiles/.vimrc ~/.vimrc
 ln -s ~/GitHub/dotfiles/.gvimrc ~/.gvimrc
 ln -s ~/GitHub/dotfiles/.extra ~/.extra
-#
-# Put Sublime Text in the path
-ln -s "/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
+
 
