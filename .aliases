@@ -12,6 +12,8 @@ alias -- -="cd -"
 alias db="cd ~/Dropbox"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
+alias ghw="cd ~/GitHub/jamesamiller.github.io"
+alias gh="cd ~/GitHub"
 alias h="history"
 alias j="jobs"
 
