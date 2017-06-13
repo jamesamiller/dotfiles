@@ -17,4 +17,5 @@
 #           /Library/TeX/texbin, /opt/X11/bin, and/or paths to other installed apps.
 
 # Further additions:
-#source /opt/intel/bin/compilervars.sh intel64      # Intel Fortran
+
+source /opt/intel/bin/compilervars.sh intel64      # Intel Fortran
