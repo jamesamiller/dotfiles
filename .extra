@@ -1,0 +1,7 @@
+#
+# This file is used for 'extra' things.
+#
+
+# Intel Fortran and MKL $PATH additions and environment variables
+source /opt/intel/bin/compilervars.sh intel64
+source /opt/intel/mkl/bin/mklvars.sh intel64 mod
