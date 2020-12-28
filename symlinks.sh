@@ -12,5 +12,3 @@ ln -s ~/GitHub/dotfiles/.vim ~/.vim
 ln -s ~/GitHub/dotfiles/.vimrc ~/.vimrc
 ln -s ~/GitHub/dotfiles/.gvimrc ~/.gvimrc
 ln -s ~/GitHub/dotfiles/.extra ~/.extra
-
-
