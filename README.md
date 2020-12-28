@@ -26,11 +26,8 @@ The files or directories in this repo I currently use are
 .bashrc
 .exports
 .functions
-bin
 symlinks.sh
 ```
-
-I may use the others in the future, but currently they are along for the ride and will be kept current with Mathias Bynens' upstream repository.
 
 ## Add custom commands without creating a new fork
 
