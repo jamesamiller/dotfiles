@@ -71,8 +71,6 @@ if [ $? -eq 0 ]; then
 	}
 fi;
 
-
-
 # Compare original and gzipped file size
 function gz() {
 	local origsize=$(wc -c < "$1");
@@ -89,16 +87,6 @@ function s() {
 		subl .;
 	else
 		subl "$@";
-	fi;
-}
-
-# `a` with no arguments opens the current directory in Atom Editor, otherwise
-# opens the given location
-function a() {
-	if [ $# -eq 0 ]; then
-		atom .;
-	else
-		atom "$@";
 	fi;
 }
 
