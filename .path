@@ -17,11 +17,6 @@
 
 # Further additions:
 
-# Access the homebrew ruby
-export PATH="/usr/local/opt/ruby/bin:$PATH"
-export LDFLAGS="-L/usr/local/opt/ruby/lib"
-export CPPFLAGS="-I/usr/local/opt/ruby/include"
-
 # Reference GNU utilities without the 'g' prefix
 export PATH="$(brew --prefix findutils)/libexec/gnubin:$PATH"
 export MANPATH="$(brew --prefix findutils)/libexec/gnuman:$MANPATH"
