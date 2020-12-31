@@ -33,6 +33,9 @@ symlinks.sh
 macos.sh
 ```
 
+The `macos.sh` file contains terminal commands for setting system defaults. It's included for reference.
+
+
 ## Add custom commands without committing
 
 If `~/.extra` exists, it will be sourced along with the other files. You can use this to add a few custom commands without the need to commit.
